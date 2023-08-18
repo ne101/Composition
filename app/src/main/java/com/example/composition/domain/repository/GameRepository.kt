@@ -7,6 +7,6 @@ import com.example.composition.domain.entity.Question
 interface GameRepository {
 
     fun generateQuestion(maxSumValue: Int, countOfOptions: Int): Question
-    fun getGameSettingsIseCase(level: Level): GameSettings
+    fun getGameSettings(level: Level): GameSettings
 
 }
